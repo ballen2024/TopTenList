@@ -4,6 +4,7 @@
 #include "TopTenList.h"
 
 using std::cout;
+using std::endl;
 
 int main()
 {
@@ -15,6 +16,6 @@ int main()
     languages->set_at(1, cpp);
 
     cout<<"Top Ten "<<languages->get_title()<<"\n";
-
+    languages->printTopTen();
     return 0;
 }
