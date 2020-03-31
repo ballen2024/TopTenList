@@ -24,6 +24,7 @@ Hyperlink TopTenList::get(int index)
     return _list.at(index-1); //subtract 1 to account for zero-indexing
 }
 
+<<<<<<< HEAD
 string TopTenList::get_title()
 {
     return list_title;
@@ -36,3 +37,6 @@ void TopTenList::printTopTen()
         cout << i+1 << ". " << _list[i].text << endl;
     }
 }
+=======
+}
+>>>>>>> 46774f7044b1dd9a87586c360ea8c3509f825020
