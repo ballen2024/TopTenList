@@ -2,11 +2,7 @@
 #include <vector>
 #include "Hyperlink.h"
 #include "TopTenList.h"
-<<<<<<< HEAD
-#include "IDirectionable.h"
-=======
 #include "Gallery.h"
->>>>>>> 03ba7595f3d771762a943f446e7c157e4cca336d
 
 using std::cout;
 using std::endl;
@@ -55,10 +51,10 @@ int main()
     emoticons->display_backward();
     languages->display_forward();
 
-
-
     languages->display_forward();
     languages->display_backward();
+
+    emoticons->display_forward();
 
     return 0;
 }

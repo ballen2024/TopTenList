@@ -39,7 +39,7 @@ void TopTenList::printTopTen()
 
 void TopTenList::display_forward()
 {
-    cout << "Printing Top Ten forward" << endl;
+    // cout << "Printing Top Ten forward" << endl;
     for(int i = 0; i < _list.size(); i++)
     {
         cout << i+1 << ". " << _list[i].text << endl;
@@ -48,7 +48,7 @@ void TopTenList::display_forward()
 
 void TopTenList::display_backward()
 {
-    cout << "Printing Top Ten backward" << endl;
+    // cout << "Printing Top Ten backward" << endl;
     for(int i = _list.size()-1; i >= 0; i--)
     {
         cout << i+1 << ". " << _list[i].text << endl;
